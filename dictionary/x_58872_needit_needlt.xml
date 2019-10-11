@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Needlt" max_length="40" name="x_58872_needit_needlt" sizeclass="3" type="collection">
+        <element label="New field1" max_length="40" name="new_field1" type="string"/>
+        <element label="New field2" max_length="255" name="new_field2" type="string"/>
+        <element label="Requested for" max_length="255" name="requested_for" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="When needed" max_length="40" name="u_calendar_date_time_1" read_only="true" type="calendar_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request type" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="What needed" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element label="Requested for" max_length="80" name="u_field_name_2" type="field_name"/>
+    </element>
+</database>
